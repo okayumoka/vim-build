@@ -1,0 +1,5 @@
+pacman -Suuy
+# ここで一度minttyを閉じて、再度開く
+pacman -Suu
+pacman -S git mingw-w64-i686-toolchain mingw-w64-x86_64-toolchain
+pacman -S python3
