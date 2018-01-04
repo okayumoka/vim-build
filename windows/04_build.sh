@@ -1,4 +1,4 @@
-cd ./vim/src
+cd ~/src/vim/vim/src
 rm -rf ./build
 mkdir -p ./build/vimfiles
 
@@ -59,6 +59,9 @@ cp C:/msys64/mingw64/bin/libiconv-2.dll ./build/
 cp C:/msys64/mingw64/bin/libintl-8.dll ./build/
 cp C:/msys64/mingw64/bin/libwinpthread-1.dll ./build/
 
+cp C:/msys64/usr/bin/winpty.dll ./build/
+cp C:/msys64/usr/bin/winpty-agent.exe ./build/
+
 cp C:/Strawberry/perl/bin/perl526.dll ./build/
 cp C:/tools/ruby23/bin/x64-msvcrt-ruby230.dll ./build/
 cp C:/Windows/System32/python27.dll ./build/
@@ -69,5 +72,5 @@ mkdir -p ./build/vim80/lang/ja/LC_MESSAGES
 cp ./po/ja.mo ./build/vim80/lang/ja/LC_MESSAGES/vim.mo
 
 # 実行ファイル置き場に移動
-mkdir ~/bin/vim/
+mkdir -p ~/bin/vim/
 cp -r ./build/* ~/bin/vim/

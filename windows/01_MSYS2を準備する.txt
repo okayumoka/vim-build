@@ -3,3 +3,4 @@ pacman -Suuy
 pacman -Suu
 pacman -S git mingw-w64-i686-toolchain mingw-w64-x86_64-toolchain
 pacman -S python3
+pacman -S winpty
