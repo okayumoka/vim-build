@@ -9,3 +9,5 @@ tar xzvf lua-5.3.3.tar.gz
 
 # Vim
 git clone https://github.com/vim/vim.git
+cd vim
+git pull
